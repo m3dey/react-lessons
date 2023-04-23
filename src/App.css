@@ -1,11 +1,11 @@
-.CarCards{
+.UsersContainer{
   display: grid;
-
+font-size: 22px;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 10px;
-  padding: 5px;
+  gap: 5px;
+  padding: 20px;
 }
-.CarCard{
+.userCard{
   border: grey 2px solid;
   padding: 8px;
   border-radius: 5px;
@@ -17,7 +17,7 @@
   height: 200px;
   transition: 200ms;
 }
-.CarCard:hover{
+.userCard:hover{
   transform: scale(103%);
 
 }
