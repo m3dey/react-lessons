@@ -1,5 +1,5 @@
 import './App.css';
-import Cars from "./components/Cars/Cars";
+
 
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
 
     return (
         <div  >
-           <Cars/>
+
 
         </div>
     );
